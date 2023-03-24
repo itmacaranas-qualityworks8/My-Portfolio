@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b9cb2f2248.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="img/Logo2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">My Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p></p>
+            <h1>Hi, I'm <span>Isaac</span> Macaranas<br> From Philippines</h1>
+            <br>
+            <h3>And I'm a Video Editor.</h3>
+        </div>
+    </div>
+</div>
+<!-- --------about-------- -->
+<div id="about">    
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img/about me 2.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About<span> Me</span></h1>
+                <p>I'm a freelance video editor based in Quezon Province, Philippines.
+                    I specialize in converting raw videos into a meaningful video contents. 
+                    Further, I have my own secret formula for creating highly engaging videos that are in alignment 
+                    with my client's preference. I have 5 years of experience in using Adobe Premiere Pro
+                    and other video editing platforms and I can hand over any video outputs depending on
+                    the client's needs. Enjoying what I do and approaching everything
+                    with passion is my fulfillment. I can assure you that I always put forth my best effort in all
+                    of my work.<br> <br>Video editing is time consuming and hiring an editor
+                    is expensive. However, I would like to inform you that every dollar you will 
+                    pay me is insignificant in comparison to the incredible results 
+                    that I will provide for you. Your success and satisfaction is my main aim!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------services------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My<span> Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Video Editing</h2>
+                <p>I am responsible for taking your raw footage shots, 
+                then turning it into one cohesive video or film. I will follow
+                an outline, script and any special instructions given about what
+                should happen in the desired video content.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-headphones"></i>
+                <h2>Audio Editing</h2>
+                <p> I am responsible for assembling the overall sound design of a
+                     completed video content. This also includes piecing together the right sounds
+                    to fit the edited footage and video content.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-closed-captioning"></i>
+                <h2>English Subtitling</h2>
+                <p>I will translate all the dialogue, music and sound effects of a film into 
+                    two-line written english captions that appear on the screen.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------portfolio------------- -->
+<div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Sample<span> Works</span> and<span> Certificates</span> </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/service-1.jpg">
+                    <div class="layer">
+                        <h3>Video Edits</h3>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/service-3.jpg">
+                    <div class="layer">
+                        <h3>Certificates</h3>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- --------contact--------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span>Me</span></h1>
+                <p><i class="fa-solid fa-paper-plane"></i> itmacaranas.qualityworks@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +639562531708</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/isaacmacaranas"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/isaacmacaranas/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.youtube.com/watch?v=WeXSYGykrtw&ab_channel=FlipTopOtaku"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="attachments/Guide.xlsx" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>@2023 Made with <i class="fa-solid fa-heart" style="color: #df1125;"></i> by Isaac Macaranas. All Rights Reserved</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyZhrIP7KDkski_wjjAzbcUpHYmcyiqmQlX43fWinlk2qKy2YV61mxtO8ifGiMxp4fR/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
